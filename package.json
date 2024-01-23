@@ -1,0 +1,25 @@
+{
+  "name": "storyfillup",
+  "version": "1.0.0",
+  "description": "Simple markup language for text with placeholders",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "parser.js",
+    "README.md",
+    "LICENSE.txt"
+  ],
+  "scripts": {
+    "prepare": "peggy --format es -o parser.js storyfillup.pegjs",
+    "test": "npm run prepare && NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "author": "Half-Gray <halfgray7e@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "peggy": "^3.0.2"
+  }
+}
