@@ -21,5 +21,13 @@
   "devDependencies": {
     "jest": "^29.7.0",
     "peggy": "^3.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jack126guy/storyfillup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jack126guy/storyfillup/issues"
+  },
+  "homepage": "https://github.com/jack126guy/storyfillup#readme"
 }
